@@ -83,11 +83,11 @@
         </xpath>
 
         <!-- Changes to class to toogle the onBoadring panel-->
-        <xpath expr="div[hasclass('o_onboarding_container')]" position="attributes">
+        <!-- <xpath expr="div[hasclass('o_onboarding_container')]" position="attributes">
             <attribute name="t-att-class">'o_onboarding_container collapse' if hide_panel else
                 'o_onboarding_container collapse show'
             </attribute>
-        </xpath>
+        </xpath> -->
 
         <!-- Remove close button from onboarding panel-->
         <xpath expr="//div[hasclass('o_onboarding_container')]//a" position="attributes">
